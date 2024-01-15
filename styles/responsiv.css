@@ -1,0 +1,86 @@
+/*    mobile  device */
+
+@media screen and (max-width:600px) {
+    .header-section ,.tour-section{
+        flex-direction: column;
+    }
+    .header-title {
+        width: 100%;
+    }
+
+    .header-menu {
+        display: none;
+    }
+    .cover-title h3 {
+        color: #FFF;
+        font-size: 30px;
+        font-weight: 800;
+        padding-top: 20px;
+    }
+    .cover-title p {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 10px 0 30px 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .cover-btn {
+        background-color: #ffffff67;
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cover-btn button {
+        margin-top: 15px;
+    }
+    .tour-title p {
+        width: 90%;
+    }
+    .tour-img img {
+        width: 400px;
+        height: 500px;
+        margin-top: 30px;
+    }
+    .photo-box,.photo-box1,.photo-box2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .maldives p{
+        bottom: 320px;
+        left: 60px;
+    }
+    .indonesia p{
+        bottom: 95px;
+        left: 65px
+    }
+    .srilanka p{
+        bottom: 535px;
+        right: -100px
+    }
+    .north-america p{
+        bottom: 315px;
+        right: 81px;
+    }
+    .kashmir p{
+        bottom: 95px;
+        right: 70px;
+    }
+    .bangladesh p{
+        bottom: 360px;
+        left: 70px;
+    }
+    .bandarban p{
+        bottom: 100px;
+        right: 90px;
+    }
+    .photo h3{
+        font-size: 20px;
+    }
+    .photo p{
+        width: 80%;
+    }
+}
