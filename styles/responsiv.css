@@ -115,4 +115,26 @@
         left: 190px;
         transform: rotate(-25.600deg);
     }
+    .coustomer-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .discounts-items1 {
+        position: absolute;
+        bottom: 80px;
+        left: 50px;
+        width: 350px;
+        height: 280px;
+    }
+    .discounts-items2 {
+        position: absolute;
+        bottom: 80px;
+        left: 50px;
+        width: 350px;
+        height: 280px;
+    }
+    .discounts-box img {
+        width: 450px;
+        height: 500px;
+        margin-bottom: 15px;
+    }
 }
