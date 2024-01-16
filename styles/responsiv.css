@@ -1,15 +1,25 @@
 /*    mobile  device */
 
 @media screen and (max-width:600px) {
-    .header-section ,.tour-section{
+     .tour-section,.location-section ,.video-section,.form-section,.form-box3{
         flex-direction: column;
     }
     .header-title {
-        width: 100%;
+        width: 80%;
+    }
+    .header-title h3  {
+        font-size: 20px;
+        display: inline-block;
+    }
+    .header-title span {
+        font-size: 20px;
     }
 
     .header-menu {
-        display: none;
+        visibility: hidden;
+    }
+    .span-tag span{
+        visibility: visible;
     }
     .cover-title h3 {
         color: #FFF;
@@ -77,10 +87,32 @@
         bottom: 100px;
         right: 90px;
     }
-    .photo h3{
+    
+    .h3{
         font-size: 20px;
     }
-    .photo p{
+    .p{
         width: 80%;
+    }
+
+    .location-box1,.location-box2,.location-box3{
+        width: 100%;
+    }
+    .video-box1 h3 {
+        width: 90%;
+    }
+    .video-box1 p{
+        width: 90%;
+    }
+
+    .video-box1 li{
+        width: 90%;
+    }
+    .form-box3{
+        width: 40%;
+        position: absolute;
+        bottom: 55px;
+        left: 190px;
+        transform: rotate(-25.600deg);
     }
 }
